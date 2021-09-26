@@ -1,0 +1,206 @@
+/*in order to target "id" it's a # */
+#title {
+  background-color: #ff4c68;
+  color: #FFFFFF;
+}
+
+#features {
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.container-fluid {
+  padding: 2% 15% 5%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  padding: 0 0 1rem;
+  color: #FFFFFF;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.nav-item {
+  padding: 0 20px;
+  color: #FFFFFF;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download Buttons  */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  /* Equal to rotateZ(45deg) */
+  position: absolute;
+  right: 30%;
+}
+
+.cont-img {
+  padding: 0%;
+  margin: 0px;
+}
+
+.middle-container {
+  background-color: #ffeedb;
+  maegin: 50px 0;
+  /*px for top and bottom and 0 for left and right*/
+  text-align: center;
+  height: 200px;
+}
+
+.right-container {
+  background-color: #0a1d37;
+  height: 200px;
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+.left-container {
+  background-color: #ffd8cc;
+  height: 200px;
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  /*7% top and bottom, 15% left and right */
+  background-color: ##FFFFFF;
+}
+
+h3 {
+  font-family: "Montserrat";
+  padding-top: 10%;
+  font-weight: 700;
+  padding-bottom: 10%;
+}
+
+p {
+  color: #BEBEBE;
+}
+
+/* icons */
+.fas {
+  color: #ef8172;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  padding-bottom: 3%;
+}
+
+.logos-brands {
+  width: 10%;
+  margin: 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* when our viewport is 1028px or smaller, picture changes  */
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  text-align: center;
+  padding: 3% 3% 3% 3%;
+  background-color: #ff4c68;
+}
+
+#footer {
+  text-align: center;
+  font-size:1rem;
+  padding: 3% 3% 3% 3%;
+}
+
+.closing-call{
+
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.closing-icon{
+  margin: 5% 3% 5% 0%;
+  color: #A0A0A0;
+}
